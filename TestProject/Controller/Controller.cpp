@@ -8,4 +8,16 @@
 
 #include "Controller.hpp"
 
-
+void Controller :: start()
+{
+    cout << "HELLO!!!" << endl;
+    
+    for (int n = 0 ; n < numList.size(); ++n)
+    {
+        
+    }
+    for (int n = 0 ; n < wordList.size() ; ++n)
+    {
+        words
+    }
+}
