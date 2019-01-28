@@ -14,10 +14,15 @@ void Controller :: start()
     
     for (int n = 0 ; n < numList.size(); ++n)
     {
-        
+        cout << numList[n] << endl;
     }
     for (int n = 0 ; n < wordList.size() ; ++n)
     {
-        words
+        cout << wordList[n] << endl;
+    }
+    for (int n = 0 ; n < 5 ; ++n)
+    {
+        Words[n] = wordList[n];
+        cout << Words[n] << endl;
     }
 }

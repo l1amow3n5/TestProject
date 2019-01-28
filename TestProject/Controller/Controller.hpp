@@ -16,8 +16,8 @@ using namespace std;
 class Controller
 {
 private:
-    vector <int> numList;
-    vector <string> wordList;
+    vector <int> numList = { 1, 2, 3, 4, 5};
+    vector <string> wordList = {"MY", "Name", "Is", "Liam", "Owen"};
     string Words [5]; 
 public:
     void start();
